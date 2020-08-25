@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3095914534600698502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3095914534600698500}
+  - component: {fileID: 3095914534600698501}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3095914534600698500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3095914534600698502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3095914534600698501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3095914534600698502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a147425a9ad0e4484e76e15401f48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    audioClip: {fileID: 8300000, guid: 4885d0651a0f26241a5ecf88b26cfa86, type: 3}
+    pitch: 1
+    volume: 0.4
+    loop: 1
+    source: {fileID: 0}
+  - name: BreakHelmet
+    audioClip: {fileID: 8300000, guid: 77474ad29253b344e80c69caf4bd4cf3, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BuyHero
+    audioClip: {fileID: 8300000, guid: 7404f1d456a3d214abf13f2398cd1629, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CaughtTheOlive
+    audioClip: {fileID: 8300000, guid: c250fad1059b4fd408846e61232a6125, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: ChikiBriki
+    audioClip: {fileID: 8300000, guid: 3a83317e0cd9a3a45adeb76bd97217f1, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    audioClip: {fileID: 8300000, guid: e2321e34a9b913c418f6e3bc3d991fb5, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HelmetHit
+    audioClip: {fileID: 8300000, guid: b52f083f3d5302948b87f006262f2f9b, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickCoin
+    audioClip: {fileID: 8300000, guid: d1c3f494c2260d442b5c20d2d17ced7d, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PutDownMechBlock
+    audioClip: {fileID: 8300000, guid: f7bf66ee32fae214bbdd0c96c0a117f4, type: 3}
+    pitch: 1
+    volume: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    audioClip: {fileID: 8300000, guid: 643918aa323859f42b374f539aeea712, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SlimyDeath
+    audioClip: {fileID: 8300000, guid: 743fef61c78a4cc4bb2e646b78f00dd3, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Step
+    audioClip: {fileID: 8300000, guid: 0def4bf5642039b4e850e1c344639b1c, type: 3}
+    pitch: 3
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TouchEnvironment
+    audioClip: {fileID: 8300000, guid: 8fd8dbc288ce82743b403b21f6bfe0b3, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NextLevelIsUnlocked
+    audioClip: {fileID: 8300000, guid: 23f502877544ef940b19676f5bd0c097, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SpeedGuyComment
+    audioClip: {fileID: 8300000, guid: c42422f22162064429c38ede6d0b26a9, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SpeedGuyHit
+    audioClip: {fileID: 8300000, guid: 7b9612f1fbda3cf42aa5e9abd9992018, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerfulGuyComment
+    audioClip: {fileID: 8300000, guid: 6dd54aa58defcde4b954838e36058423, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerfulGuyHit
+    audioClip: {fileID: 8300000, guid: be849b734de13bd44b93f2c8e9fcf16b, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MechGuyComment
+    audioClip: {fileID: 8300000, guid: 16b93ab2ac3f38a4e91b3e11e8e63db4, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MechGuyHit
+    audioClip: {fileID: 8300000, guid: 5d7ba6c6eac8d0444b1591dbeb311645, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShieldGuyComment
+    audioClip: {fileID: 8300000, guid: 193d38ea2b850ce40bfda99ad70bb2d2, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShieldGuyHit
+    audioClip: {fileID: 8300000, guid: 9b0ad78fd999a38428ec33bb8aeb65b1, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
